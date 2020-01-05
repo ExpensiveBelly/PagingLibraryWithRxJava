@@ -1,0 +1,19 @@
+<com.github.captain_miao.optroundcardview.OptRoundCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/top_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    app:optRoundCardBackgroundColor="#FAFAFA"
+    app:optRoundCardBottomEdges="true"
+    app:optRoundCardCornerRadius="8dp"
+    app:optRoundCardElevation="0dp"
+    app:optRoundCardLeftBottomCorner="true"
+    app:optRoundCardRightBottomCorner="true">
+
+    <include layout="@layout/journey_row_base" />
+
+</com.github.captain_miao.optroundcardview.OptRoundCardView>
