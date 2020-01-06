@@ -35,7 +35,7 @@ class MainViewModel(
         )
 
         //TODO: Change journey upon user click / edit fields
-        compositeDisposable += input.doOnNext {
+        compositeDisposable += input.subscribe {
             journeyRepository.journey.onNext(
                 JourneyRequest(
                     departure = "KGX",
@@ -43,7 +43,7 @@ class MainViewModel(
                     fromTime = nowPlus5MinutesFormatted
                 )
             )
-        }.subscribe()
+        }
 
     }
 
